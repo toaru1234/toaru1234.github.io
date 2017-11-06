@@ -52,7 +52,7 @@ function onYouTubeIframeAPIReady() {
         width: '860',    
         videoId: 'hLQl3WQQoQ0',
         playerVars: {         
-            controls: '2'
+            controls: '0'
         },
         events: {
         }
