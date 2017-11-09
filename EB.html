@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head lang="en">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <style>
+        #toast-container {
+            width: 60%;
+            top: 5%;
+            left: 20%;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 20);
+        }
+    </style>
+    <title>영어B 발표</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo right">toaru1234.github.io</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="EB.html">영어B 발표</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <center>
+            <div id="frame"></div>
+            <div style='width: 330px; height: 15px; text-align: center; line-height: 15px;'></div>
+            <script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+            <script type="text/javascript" src="js/lyrics.js"></script>
+            <script type="text/javascript" src="js/script.js"></script>
+            <a class="btn tooltipped waves-effect" data-position="bottom" data-delay="50" data-tooltip="영상 실행" onclick='start();'>Play</a>
+            <a class="btn tooltipped waves-effect" data-position="bottom" data-delay="50" data-tooltip="정답 공개" onclick='answer();'>Answer</a>
+            <a class="btn tooltipped waves-effect" data-position="bottom" data-delay="50" data-tooltip="돌려보기" onclick='restart();'>Replay</a>
+        </center>
+    </div>
+</body>
+</html>
