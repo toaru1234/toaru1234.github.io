@@ -1,4 +1,4 @@
-﻿var number = 0;
+var number = 0;
 var tick = 0;
 var interval = 0;
 var flag = 1;
@@ -16,7 +16,6 @@ function onYouTubeIframeAPIReady() {
     });
 }
 function start() {
-    Materialize.toast("ddddd", 4000);
     player.playVideo();
     interval = setInterval(function () {
         if (flag == 1) {
